@@ -1,0 +1,19 @@
+@import "./scss/bootstrap";
+
+// Set Main to Whole Body 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1F1F1F;
+  color: white;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+// Modal
+.custom-modal .ant-modal-content {
+  background-color: #181A1D;
+}
